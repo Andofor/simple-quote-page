@@ -31,3 +31,52 @@ body {
   font-size: 1.5rem;
   font-style: italic;
 }
+
+
+
+@media screen and (max-width:450px) {
+	.wrapper {
+		padding-top: 5rem;
+	}
+	.wrapper .quote {
+	font-size:1.7rem;
+	color:green;
+	letter-spacing:-2px;
+		font-weight: 400;
+		text-shadow: 2px 1px #b76800;
+	}
+	.author {
+		color:blue;
+		text-shadow: 1px 1px aqua;
+	}
+}
+@media screen and (min-width:451px)  {
+	.wrapper	.quote {
+			font-size: 2.2rem;
+			color:aqua;
+		font-weight: 700;
+		text-shadow: 3px 3px blue;
+		}
+		.author {
+			color:firebrick;
+			text-shadow: 4px 2px yellow;
+		}
+	}	
+@media screen and (min-width:1000px) {
+	.wrapper {
+		padding-top: 5.5rem;
+		width:80%;
+	}
+	
+	.wrapper	.quote {
+			font-size: 2.8rem;
+			color:chocolate ;				
+		font-weight: 900;
+		text-shadow: 3px 3px lightgreen;
+		}
+	.author {
+			color:black;
+		font-size: 2rem;
+		text-shadow: 2px 2px white;
+		}
+}
